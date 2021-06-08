@@ -7,7 +7,7 @@ class A{
     public static void main(String[] a){
         System.out.println("hello");
         List<Integer> l = Arrays.asList(1,2,3,4,5);
-        if(l.size()>4){
+        if(l.size()>7){
             File f = new File("TestCaseFailed.txt");
             if(!f.exists())
 				try {
