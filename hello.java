@@ -11,7 +11,7 @@ class A{
             File f = new File("TestCaseFailed.txt");
             if(!f.exists())
 				try {
-                    System.out.println("Creating  File")
+                    System.out.println("Creating  File");
 					f.createNewFile();
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
